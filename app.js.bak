@@ -47,6 +47,7 @@ app.get('/data/:id', function(req, res){
 		if(error)
 		{
 			console.log('fail');
+			res.end('<h1>fail</h1>');	
 		}else{
 			//var query = url.parse(result, true).query; 
 			console.log(result);
