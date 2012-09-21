@@ -33,7 +33,7 @@ app.configure('production', function(){
 var client = mysql.createClient({
     user: 'root',
     password: 'qwer',
-    database: 'userData'
+    database: 'AAdvData'
     
 });
 routes.setOption(client);
